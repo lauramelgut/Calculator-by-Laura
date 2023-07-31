@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator by Laura</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/calculator.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="flex">
+        <div class="marca-solar">
+          <p class="marca">CASIO</p>
+          <img
+            class="solar"
+            src="./imagenes-calculator/img pant solar.png"
+            alt=""
+          />
+        </div>
+        <div class="p">
+          <p>SL-310UC</p>
+        </div>
+        <section class="pantalla">
+          <input type="text" id="screen" disabled value="" />
+        </section>
+      </div>
+
+      <section class="numeros">
+        <div class="fila">
+          <input type="button" value="7" onclick="addSymbol('7')" />
+          <input type="button" value="8" onclick="addSymbol('8')" />
+          <input type="button" value="9" onclick="addSymbol('9')" />
+          <input type="button" value="/" onclick="addSymbol('/')" />
+        </div>
+        <div class="fila">
+          <input type="button" value="4" onclick="addSymbol('4')" />
+          <input type="button" value="5" onclick="addSymbol('5')" />
+          <input type="button" value="6" onclick="addSymbol('6')" />
+          <input type="button" value="x" onclick="addSymbol('x')" />
+        </div>
+        <div class="fila">
+          <input type="button" value="1" onclick="addSymbol('1')" />
+          <input type="button" value="2" onclick="addSymbol('2')" />
+          <input type="button" value="3" onclick="addSymbol('3')" />
+          <input type="button" value="-" onclick="addSymbol('-')" />
+        </div>
+
+        <div class="fila">
+          <input type="button" value="=" onclick="calculate()" />
+          <input type="button" value="C" onclick="clearScreen()" />
+          <input type="button" value="0" onclick="addSymbol('0')" />
+          <input type="button" value="+" onclick="addSymbol('+')" />
+        </div>
+      </section>
+    </div>
+    <div>
+      <p class="footer">
+        Laura Melero <br />
+        HTML, CSS y JavaScript
+      </p>
+    </div>
+    <audio autoplay src="./audio/Dreams (Guitar Version).mp3" controls></audio>
+  </body>
+</html>

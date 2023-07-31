@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Casio';
+    src:url("../fonts/Rajdhani\ Font/Rajdhani-Bold.ttf")
+}
+@font-face {
+    font-family: 'Calculator';
+    src:url("../fonts/Calculator.ttf")
+}
+body{
+   margin-top: 15vh;
+   font-family: 'Casio';
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-image: url(../imagenes-calculator/micheile-henderson-_HIlJ_popSQ-unsplash.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.container{
+    background-color: #FDCFDC;
+    width: 35vh;
+    height: 56vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    border-radius: 20px;
+    border: 5px double #D4AEB7;
+    margin-top: 60px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 4cm;
+}
+.marca{
+    text-align: left;
+    font-family: 'Casio';
+    color: #3C3135;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0 10px;
+}
+.marca-solar{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.solar{
+    border-radius: 4px;
+    border:1px solid #666;
+    width: 43%;
+    height: 5vh;
+}
+.p{
+    display: flex;
+    flex-direction: row;
+    align-content: end;
+    font-size: 10px;
+    margin-left: 78%;
+    margin-top: 0%;
+    padding: 0%;
+    text-align: right;
+    align-content: end;
+    color: #88747A;
+}
+.pantalla{
+    display: flex;
+    justify-content: center;
+    height: 2cm;
+}
+.pantalla input{
+    width: 90%;
+    height: 110%;
+    background-color: #CFE3E3;
+    border: none;
+    border-radius: 15px;
+    color: #4c484a;
+    text-align: right;
+    font-size: 50px;
+    box-shadow:inset 0px 0px 5px 3px #76828685;
+    font-family: 'Calculator';
+    border:1px solid #666;
+    margin-top: 0%;
+    padding: 1vh;
+}
+.numeros{
+    height: 27vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFDDEB;
+    padding: 1vw 0;
+    border: 2px solid #D5B5BD;
+    border-radius: 16px;
+    box-shadow: 0px 0px 3px 2px #f7dbe6c8;
+}
+.button:hover{
+    background-color: #FDCFDC;
+}
+
+.fila{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.fila input{
+    width: 60px;
+    height: 35px;
+    border-radius: 20%;
+    background-color: #FAD5E2;
+    margin: 5px 4px;
+    color: #766268;
+    border: 1px solid #8F7C80;
+    box-shadow: 3px 3px 3px 2px rgba(0,0,0,0.20);
+    font-size: 20px;
+}
+
+#C{
+    background-color: #E592B3;
+}
+.footer{
+    text-align: center;
+    color: #486704;
+    font-weight: bold;
+    font-weight: bold;
+    font-size: 8px;
+    margin: 0;
+    padding: 10px;
+}
+audio{
+    height: 20px;
+    width: 100px;
+}
